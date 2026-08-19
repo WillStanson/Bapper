@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="SanityBarBackground" style="flex-grow: 1; position: absolute; width: 500px; height: 100px; background-image: none; background-color: rgb(43, 57, 119);">
+        <ui:Label text="Label" name="SanityLabel" style="position: absolute; width: 100%; height: 100%; -unity-text-align: middle-left; font-size: 28px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-bottom: 0; padding-right: 0; padding-top: 0; padding-left: 50px;"/>
+    </ui:VisualElement>
+</ui:UXML>
