@@ -28,6 +28,11 @@ public class RoombaListedMovement : MonoBehaviour
         if (Vector3.Distance(transform.position, CurrentPoint.position) < 0.5f)
         {
             ListIndex++;
+            if (ListIndex >= points.Count)
+                ListIndex = 0;
+
+            
+
             CurrentPoint = points[ListIndex];
         }
     }
