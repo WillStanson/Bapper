@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Plaid
+  m_Name: Triplanar_Plaid
   m_Shader: {fileID: -6465566751694194690, guid: 45f4f9a22a32287438f45cc70df0196e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
