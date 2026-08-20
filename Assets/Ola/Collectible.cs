@@ -3,10 +3,12 @@ using UnityEngine;
 public class Collectible : MonoBehaviour
 {
     public string Tag;
+
+    Sanity SanityLink;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        SanityLink = FindAnyObjectByType<Sanity>();
     }
 
     // Update is called once per frame
@@ -21,5 +23,10 @@ public class Collectible : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    private void OnDestroy()
+    {
+        SanityLink.IncreaseSanity();
     }
 }
