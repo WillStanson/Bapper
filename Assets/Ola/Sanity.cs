@@ -32,7 +32,7 @@ public class Sanity : MonoBehaviour
 
     public void IncreaseSanity()
     {
-        SanityMeter += 30f;
+        SanityMeter += 60f;
     }
 
     public void SetSanity(float SanityChange)
