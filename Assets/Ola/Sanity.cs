@@ -15,22 +15,14 @@ public class Sanity : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("q"))
-        {
-            SetSanity(-20f);
-        }
-
-        if (Input.GetKey("e"))
-        {
-            SetSanity(20f);
-        }
+       
     }
 
     IEnumerator DecreaseSanity()
     {
         while (SanityMeter > 0)
         {
-            SanityMeter--;
+            SetSanity(-2f);
             print(SanityMeter);
             yield return new WaitForSeconds(1);
         }
@@ -40,7 +32,7 @@ public class Sanity : MonoBehaviour
 
     public void IncreaseSanity()
     {
-        SanityMeter =+ 5;
+        SanityMeter += 30f;
     }
 
     public void SetSanity(float SanityChange)
