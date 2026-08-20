@@ -23,6 +23,7 @@ public class RoombaListedMovement : MonoBehaviour
     void Update()
     {
         ForwardMovement(1);
+        CurrentDir = CurrentPoint.X - rb.transform.x;
     }
 
     void ForwardMovement(int movementDirection)
