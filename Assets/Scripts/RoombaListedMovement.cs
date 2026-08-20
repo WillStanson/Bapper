@@ -9,21 +9,27 @@ public class RoombaListedMovement : MonoBehaviour
     private Transform CurrentPoint;
     private Vector3 CurrentDir;
     private Rigidbody rb;
-
+    private int ListIndex = 0;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        CurrentPoint = points[1];
+        CurrentPoint = points[ListIndex];
         rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        ForwardMovement(1);
-        CurrentDir = CurrentPoint.X - rb.transform.x;
+        //ForwardMovement(1);
+        transform.position = Vector3.MoveTowards(transform.position, CurrentPoint.position, Speed *Time.deltaTime);
+
+        if (Vector3.Distance(transform.position, CurrentPoint.position) < 0.5f)
+        {
+            ListIndex++;
+            CurrentPoint = points[ListIndex];
+        }
     }
 
     void ForwardMovement(int movementDirection)
