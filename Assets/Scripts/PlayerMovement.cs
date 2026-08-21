@@ -11,6 +11,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private KeyCode backwardsButton;
     private Rigidbody rb;
 
+    [SerializeField] private bool isMoving;
+    [SerializeField] private Animator m_Animator;
+
 
     void Start()
     {
@@ -28,6 +31,13 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(transform.forward * Speed);
         if (Input.GetKey(backwardsButton))
             rb.AddForce(transform.forward * -Speed);
+
+        if (Input.GetKey(backwardsButton)||Input.GetKey(forwardsButton))
+            m_Animator.SetBool("Moving", true);
+        else
+        {
+            m_Animator.SetBool("Moving", false);
+        }
 
     }
 

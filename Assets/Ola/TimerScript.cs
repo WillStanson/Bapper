@@ -13,6 +13,12 @@ public class TimerScript : MonoBehaviour
     public TextMeshProUGUI MyTextElement;
 
     RoombaListedMovement SpeedRef;
+
+    // Fredrik post launch patch
+    [SerializeField] private int ToySpawnInterval = 30;
+    [SerializeField] private int GameLength = 280;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -27,7 +33,7 @@ public class TimerScript : MonoBehaviour
     void Update()
     {
         MyTextElement.text = Timer.ToString();
-        if (Timer >= 300)
+        if (Timer >= GameLength)
         {
             SceneManager.LoadSceneAsync(SceneToLoad);
         }
@@ -46,9 +52,9 @@ public class TimerScript : MonoBehaviour
 
     IEnumerator StartRandomSpawn()
     {
-        while (Timer < 280)
+        while (Timer < GameLength)
         {
-            yield return new WaitForSeconds(30);
+            yield return new WaitForSeconds(ToySpawnInterval);
             SpawnList[Random.Range(0, 12)].SetActive(true);
 
         }
@@ -56,9 +62,9 @@ public class TimerScript : MonoBehaviour
 
     IEnumerator SpeedIncreaseTimer()
     {
-        while (Timer < 280)
+        while (Timer < GameLength)
         {
-            yield return new WaitForSeconds(60);
+            yield return new WaitForSeconds(5);
             SpeedRef.IncreaseSpeed();
         }
     }

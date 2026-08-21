@@ -25,6 +25,8 @@ public class RoombaListedMovement : MonoBehaviour
         //ForwardMovement(1);
         transform.position = Vector3.MoveTowards(transform.position, CurrentPoint.position, Speed *Time.deltaTime);
 
+        transform.LookAt(CurrentPoint.position);
+
         if (Vector3.Distance(transform.position, CurrentPoint.position) < 0.5f)
         {
             ListIndex++;

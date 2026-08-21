@@ -364,6 +364,8 @@ MonoBehaviour:
   rotateRightButton: 100
   forwardsButton: 119
   backwardsButton: 115
+  isMoving: 0
+  m_Animator: {fileID: 5967665779711073311}
 --- !u!95 &4556432427550110846
 Animator:
   serializedVersion: 7

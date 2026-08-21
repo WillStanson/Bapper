@@ -14,7 +14,7 @@ public class cs_RandomImage : MonoBehaviour
     void Start()
     {
         m_Image = GetComponent<Image>();
-        m_Image.sprite = listNameddsd[Random.Range(0,3)];
+        m_Image.sprite = listNameddsd[Random.Range(0,4)];
     }
 
     // Update is called once per frame
