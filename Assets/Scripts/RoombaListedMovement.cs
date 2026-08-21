@@ -47,6 +47,6 @@ public class RoombaListedMovement : MonoBehaviour
 
     public void IncreaseSpeed()
     {
-        Speed += 0.1f;
+        Speed += 0.5f;
     }
 }
