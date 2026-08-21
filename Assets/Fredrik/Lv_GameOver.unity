@@ -563,6 +563,7 @@ GameObject:
   - component: {fileID: 1408280047}
   - component: {fileID: 1408280049}
   - component: {fileID: 1408280048}
+  - component: {fileID: 1408280050}
   m_Layer: 5
   m_Name: Background (1)
   m_TagString: Untagged
@@ -627,6 +628,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1408280046}
   m_CullTransparentMesh: 1
+--- !u!114 &1408280050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408280046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaf809e71d8cb284b902e9af10e1823a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::cs_RandomImage
+  listNameddsd:
+  - {fileID: 21300000, guid: 2b7bea368ba9f4f45b6686261139df7c, type: 3}
+  - {fileID: 21300000, guid: 8722bbf5e85c1694d9f38dd0b6a0ada1, type: 3}
+  - {fileID: 21300000, guid: 4e2336aa3f630794fbcf128bf798ffa8, type: 3}
+  - {fileID: 21300000, guid: 16bd08531cd577849bfbb8e864844fe3, type: 3}
 --- !u!1 &1588437697
 GameObject:
   m_ObjectHideFlags: 0
