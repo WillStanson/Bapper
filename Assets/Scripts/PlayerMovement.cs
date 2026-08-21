@@ -25,9 +25,9 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(rotateRightButton))
             rotateSofa(1);
         if (Input.GetKey(forwardsButton))
-            sofaMovement(1);
+            rb.AddForce(transform.forward * Speed);
         if (Input.GetKey(backwardsButton))
-            sofaMovement(-1);
+            rb.AddForce(transform.forward * Speed);
 
     }
 

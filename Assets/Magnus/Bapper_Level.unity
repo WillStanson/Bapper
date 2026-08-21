@@ -14865,6 +14865,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 272206101198800903, guid: 93d298f376d6c6c408a2e1160ff7740d, type: 3}
+      propertyPath: Speed
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 420221349261907478, guid: 93d298f376d6c6c408a2e1160ff7740d, type: 3}
       propertyPath: m_Name
       value: dog
@@ -14912,6 +14916,14 @@ PrefabInstance:
     - target: {fileID: 1053628713938898092, guid: 93d298f376d6c6c408a2e1160ff7740d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668800631324807097, guid: 93d298f376d6c6c408a2e1160ff7740d, type: 3}
+      propertyPath: m_LinearDamping
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5668800631324807097, guid: 93d298f376d6c6c408a2e1160ff7740d, type: 3}
+      propertyPath: m_AngularDamping
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -7725866123216400358, guid: 93d298f376d6c6c408a2e1160ff7740d, type: 3}
