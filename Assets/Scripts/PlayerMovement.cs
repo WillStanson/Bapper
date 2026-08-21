@@ -18,16 +18,16 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetKey(rotateLeftButton))
             rotateSofa(-1);
         if (Input.GetKey(rotateRightButton))
             rotateSofa(1);
         if (Input.GetKey(forwardsButton))
-            rb.AddForce(transform.forward * Speed * Time.deltaTime);
+            rb.AddForce(transform.forward * Speed);
         if (Input.GetKey(backwardsButton))
-            rb.AddForce(transform.forward * -Speed * Time.deltaTime);
+            rb.AddForce(transform.forward * -Speed);
 
     }
 
