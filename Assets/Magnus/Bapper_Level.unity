@@ -14118,7 +14118,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: c02019d2d8eb2194c92b1351ca53e721, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 5cd8343588429ab4b8009eda75f9b072, type: 3}
+  m_Resource: {fileID: 8300000, guid: fa268cb1b71219748a170899cf537082, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -14164,7 +14164,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -16894,6 +16894,10 @@ PrefabInstance:
     - target: {fileID: 1158007727570424453, guid: 7d92b6c953c07a64785d9bd2b4f05da2, type: 3}
       propertyPath: m_Radius
       value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158007727570424453, guid: 7d92b6c953c07a64785d9bd2b4f05da2, type: 3}
+      propertyPath: m_Center.y
+      value: 0.83
       objectReference: {fileID: 0}
     - target: {fileID: 5668800631324807097, guid: 7d92b6c953c07a64785d9bd2b4f05da2, type: 3}
       propertyPath: m_LinearDamping
