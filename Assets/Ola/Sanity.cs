@@ -27,7 +27,7 @@ public class Sanity : MonoBehaviour
     {
         while (SanityMeter > 0)
         {
-            SetSanity(-2f);
+            SetSanity(-1.8f);
             print(SanityMeter);
             yield return new WaitForSeconds(1);
         }
