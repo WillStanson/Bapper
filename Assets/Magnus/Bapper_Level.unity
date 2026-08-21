@@ -776,7 +776,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: c25e510e6d5b3494caf5ee0d12bdf0b0, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cb794122a8fbbe7478119dd5d1cb1e02, type: 2}
+      objectReference: {fileID: 2100000, guid: ac34f1bdb4f89874b8ed2ef42a4dee46, type: 2}
     - target: {fileID: 919132149155446097, guid: c25e510e6d5b3494caf5ee0d12bdf0b0, type: 3}
       propertyPath: m_Name
       value: "Asset_Kj\xF8kkenbenk_m_Vask"
@@ -1370,6 +1370,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6419d9e270e2bf943a087973b2b14d17, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58a844243665a3c409f90732b13676b2, type: 2}
     - target: {fileID: 919132149155446097, guid: 6419d9e270e2bf943a087973b2b14d17, type: 3}
       propertyPath: m_Name
       value: Asset_Stol (3)
@@ -1450,7 +1454,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 236b985a1bc680342a534d12d2844c11, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cb794122a8fbbe7478119dd5d1cb1e02, type: 2}
+      objectReference: {fileID: 2100000, guid: ac34f1bdb4f89874b8ed2ef42a4dee46, type: 2}
     - target: {fileID: 919132149155446097, guid: 236b985a1bc680342a534d12d2844c11, type: 3}
       propertyPath: m_Name
       value: Asset_Garderobe_skap
@@ -3545,7 +3549,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a706100c86921084496c1c398a57775e, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cb794122a8fbbe7478119dd5d1cb1e02, type: 2}
+      objectReference: {fileID: 2100000, guid: ac34f1bdb4f89874b8ed2ef42a4dee46, type: 2}
     - target: {fileID: 919132149155446097, guid: a706100c86921084496c1c398a57775e, type: 3}
       propertyPath: m_Name
       value: Asset_Kommode_m_skap (1)
@@ -4363,6 +4367,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6419d9e270e2bf943a087973b2b14d17, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58a844243665a3c409f90732b13676b2, type: 2}
     - target: {fileID: 919132149155446097, guid: 6419d9e270e2bf943a087973b2b14d17, type: 3}
       propertyPath: m_Name
       value: Asset_Stol (2)
@@ -5187,6 +5195,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6419d9e270e2bf943a087973b2b14d17, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58a844243665a3c409f90732b13676b2, type: 2}
     - target: {fileID: 919132149155446097, guid: 6419d9e270e2bf943a087973b2b14d17, type: 3}
       propertyPath: m_Name
       value: Asset_Stol (4)
@@ -5839,7 +5851,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a706100c86921084496c1c398a57775e, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cb794122a8fbbe7478119dd5d1cb1e02, type: 2}
+      objectReference: {fileID: 2100000, guid: ac34f1bdb4f89874b8ed2ef42a4dee46, type: 2}
     - target: {fileID: 919132149155446097, guid: a706100c86921084496c1c398a57775e, type: 3}
       propertyPath: m_Name
       value: Asset_Kommode_m_skap (5)
@@ -6944,7 +6956,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a706100c86921084496c1c398a57775e, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cb794122a8fbbe7478119dd5d1cb1e02, type: 2}
+      objectReference: {fileID: 2100000, guid: ac34f1bdb4f89874b8ed2ef42a4dee46, type: 2}
     - target: {fileID: 919132149155446097, guid: a706100c86921084496c1c398a57775e, type: 3}
       propertyPath: m_Name
       value: Asset_Kommode_m_skap (3)
@@ -7410,6 +7422,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6419d9e270e2bf943a087973b2b14d17, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58a844243665a3c409f90732b13676b2, type: 2}
     - target: {fileID: 919132149155446097, guid: 6419d9e270e2bf943a087973b2b14d17, type: 3}
       propertyPath: m_Name
       value: Asset_Stol (9)
@@ -7599,7 +7615,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ac34f1bdb4f89874b8ed2ef42a4dee46, type: 2}
+  - {fileID: 2100000, guid: 708746592fb416f4cbac3a156785eb93, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8661,7 +8677,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 90e367887b0894047a13ea6a9bb03bbb, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cb794122a8fbbe7478119dd5d1cb1e02, type: 2}
+      objectReference: {fileID: 2100000, guid: ac34f1bdb4f89874b8ed2ef42a4dee46, type: 2}
     - target: {fileID: 919132149155446097, guid: 90e367887b0894047a13ea6a9bb03bbb, type: 3}
       propertyPath: m_Name
       value: Asset_Skap_u_ben
@@ -8768,7 +8784,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bbe1a51379e71da41b78f50a8da7b78e, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cb794122a8fbbe7478119dd5d1cb1e02, type: 2}
+      objectReference: {fileID: 2100000, guid: ac34f1bdb4f89874b8ed2ef42a4dee46, type: 2}
     - target: {fileID: 919132149155446097, guid: bbe1a51379e71da41b78f50a8da7b78e, type: 3}
       propertyPath: m_Name
       value: "Asset_Kj\xF8kkenbord"
@@ -8849,7 +8865,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: da1ea283f0ba29347b4b7f93bf5143a7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cb794122a8fbbe7478119dd5d1cb1e02, type: 2}
+      objectReference: {fileID: 2100000, guid: ac34f1bdb4f89874b8ed2ef42a4dee46, type: 2}
     - target: {fileID: 919132149155446097, guid: da1ea283f0ba29347b4b7f93bf5143a7, type: 3}
       propertyPath: m_Name
       value: Asset_Kommode_m_skuff
@@ -9154,6 +9170,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6419d9e270e2bf943a087973b2b14d17, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58a844243665a3c409f90732b13676b2, type: 2}
     - target: {fileID: 919132149155446097, guid: 6419d9e270e2bf943a087973b2b14d17, type: 3}
       propertyPath: m_Name
       value: Asset_Stol (7)
@@ -9495,7 +9515,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a706100c86921084496c1c398a57775e, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cb794122a8fbbe7478119dd5d1cb1e02, type: 2}
+      objectReference: {fileID: 2100000, guid: ac34f1bdb4f89874b8ed2ef42a4dee46, type: 2}
     - target: {fileID: 919132149155446097, guid: a706100c86921084496c1c398a57775e, type: 3}
       propertyPath: m_Name
       value: Asset_Kommode_m_skap
@@ -10940,7 +10960,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 2934cd48e70a1304f95bad4e311fd815, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cb794122a8fbbe7478119dd5d1cb1e02, type: 2}
+      objectReference: {fileID: 2100000, guid: ac34f1bdb4f89874b8ed2ef42a4dee46, type: 2}
     - target: {fileID: 919132149155446097, guid: 2934cd48e70a1304f95bad4e311fd815, type: 3}
       propertyPath: m_Name
       value: Asset_Salongbord
@@ -11757,7 +11777,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 90e367887b0894047a13ea6a9bb03bbb, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cb794122a8fbbe7478119dd5d1cb1e02, type: 2}
+      objectReference: {fileID: 2100000, guid: ac34f1bdb4f89874b8ed2ef42a4dee46, type: 2}
     - target: {fileID: 919132149155446097, guid: 90e367887b0894047a13ea6a9bb03bbb, type: 3}
       propertyPath: m_Name
       value: Asset_Skap_u_ben (2)
@@ -12085,7 +12105,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a706100c86921084496c1c398a57775e, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cb794122a8fbbe7478119dd5d1cb1e02, type: 2}
+      objectReference: {fileID: 2100000, guid: ac34f1bdb4f89874b8ed2ef42a4dee46, type: 2}
     - target: {fileID: 919132149155446097, guid: a706100c86921084496c1c398a57775e, type: 3}
       propertyPath: m_Name
       value: Asset_Kommode_m_skap (4)
@@ -12358,7 +12378,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a706100c86921084496c1c398a57775e, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cb794122a8fbbe7478119dd5d1cb1e02, type: 2}
+      objectReference: {fileID: 2100000, guid: ac34f1bdb4f89874b8ed2ef42a4dee46, type: 2}
     - target: {fileID: 919132149155446097, guid: a706100c86921084496c1c398a57775e, type: 3}
       propertyPath: m_Name
       value: Asset_Kommode_m_skap (6)
@@ -12681,6 +12701,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6419d9e270e2bf943a087973b2b14d17, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58a844243665a3c409f90732b13676b2, type: 2}
     - target: {fileID: 919132149155446097, guid: 6419d9e270e2bf943a087973b2b14d17, type: 3}
       propertyPath: m_Name
       value: Asset_Stol (5)
@@ -13337,7 +13361,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 2baa9fe3a2b328243aa2b7e26159b525, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 9f6c8923956e01549a83ab2123b89f2c, type: 2}
+      objectReference: {fileID: 2100000, guid: ac34f1bdb4f89874b8ed2ef42a4dee46, type: 2}
     - target: {fileID: 919132149155446097, guid: 2baa9fe3a2b328243aa2b7e26159b525, type: 3}
       propertyPath: m_Name
       value: Asset_Piano_stol
@@ -14279,6 +14303,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6419d9e270e2bf943a087973b2b14d17, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58a844243665a3c409f90732b13676b2, type: 2}
     - target: {fileID: 919132149155446097, guid: 6419d9e270e2bf943a087973b2b14d17, type: 3}
       propertyPath: m_Name
       value: Asset_Stol (8)
@@ -15176,7 +15204,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a706100c86921084496c1c398a57775e, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cb794122a8fbbe7478119dd5d1cb1e02, type: 2}
+      objectReference: {fileID: 2100000, guid: ac34f1bdb4f89874b8ed2ef42a4dee46, type: 2}
     - target: {fileID: 919132149155446097, guid: a706100c86921084496c1c398a57775e, type: 3}
       propertyPath: m_Name
       value: Asset_Kommode_m_skap (2)
@@ -15454,6 +15482,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6419d9e270e2bf943a087973b2b14d17, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 58a844243665a3c409f90732b13676b2, type: 2}
     - target: {fileID: 919132149155446097, guid: 6419d9e270e2bf943a087973b2b14d17, type: 3}
       propertyPath: m_Name
       value: Asset_Stol (6)
@@ -15641,7 +15673,11 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: c98da408758af304ca5d1c341072d31f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cb794122a8fbbe7478119dd5d1cb1e02, type: 2}
+      objectReference: {fileID: 2100000, guid: c68ba5bf4b72d344d8298d5a249b28f9, type: 2}
+    - target: {fileID: -7511558181221131132, guid: c98da408758af304ca5d1c341072d31f, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ac34f1bdb4f89874b8ed2ef42a4dee46, type: 2}
     - target: {fileID: 919132149155446097, guid: c98da408758af304ca5d1c341072d31f, type: 3}
       propertyPath: m_Name
       value: Asset_Seng
@@ -15850,7 +15886,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 90e367887b0894047a13ea6a9bb03bbb, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cb794122a8fbbe7478119dd5d1cb1e02, type: 2}
+      objectReference: {fileID: 2100000, guid: ac34f1bdb4f89874b8ed2ef42a4dee46, type: 2}
     - target: {fileID: 919132149155446097, guid: 90e367887b0894047a13ea6a9bb03bbb, type: 3}
       propertyPath: m_Name
       value: Asset_Skap_u_ben (1)
@@ -16378,7 +16414,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 41806f5efdcb70b4994bfdb327a8fb93, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cb794122a8fbbe7478119dd5d1cb1e02, type: 2}
+      objectReference: {fileID: 2100000, guid: ac34f1bdb4f89874b8ed2ef42a4dee46, type: 2}
     - target: {fileID: 919132149155446097, guid: 41806f5efdcb70b4994bfdb327a8fb93, type: 3}
       propertyPath: m_Name
       value: Asset_Tv_benk
