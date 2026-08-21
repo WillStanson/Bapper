@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(forwardsButton))
             rb.AddForce(transform.forward * Speed);
         if (Input.GetKey(backwardsButton))
-            rb.AddForce(transform.forward * Speed);
+            rb.AddForce(transform.forward * -Speed);
 
     }
 
