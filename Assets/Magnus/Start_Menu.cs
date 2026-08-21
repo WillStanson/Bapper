@@ -8,6 +8,11 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadSceneAsync("Bapper_Level");
     }
 
+    public void MenuGame()
+    {
+        SceneManager.LoadSceneAsync("Start");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
