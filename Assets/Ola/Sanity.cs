@@ -46,4 +46,9 @@ public class Sanity : MonoBehaviour
         SanityMeter = Mathf.Clamp(SanityMeter, 0, MaxSanity);
         SanityBar.SetSanity(SanityMeter);
     }
+
+    public void RoombaLoss()
+    {
+        SceneManager.LoadSceneAsync(SceneToLoad);
+    }
 }
