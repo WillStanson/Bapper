@@ -64,6 +64,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: dee1700dfaeab46419ff39ba671831c3, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dc0e02cdbb70fd49b9d160d4da6b7c7, type: 2}
     - target: {fileID: 919132149155446097, guid: dee1700dfaeab46419ff39ba671831c3, type: 3}
       propertyPath: m_Name
       value: Toy_Ball_Ola

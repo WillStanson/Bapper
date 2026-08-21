@@ -16192,6 +16192,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1158007727570424453, guid: 7d92b6c953c07a64785d9bd2b4f05da2, type: 3}
+      propertyPath: m_Radius
+      value: 0.47
+      objectReference: {fileID: 0}
     - target: {fileID: 5668800631324807097, guid: 7d92b6c953c07a64785d9bd2b4f05da2, type: 3}
       propertyPath: m_LinearDamping
       value: 4
