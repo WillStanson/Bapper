@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class RoombaListedMovement : MonoBehaviour
 {
     [SerializeField] private List<Transform> points;
-    [SerializeField] private float Speed = 5;
+    public float Speed = 5;
     private Transform CurrentPoint;
     private Vector3 CurrentDir;
     private Rigidbody rb;
@@ -43,5 +43,10 @@ public class RoombaListedMovement : MonoBehaviour
 
         rb.linearVelocity = transform.forward * Speed * movementDirection;
 
+    }
+
+    public void IncreaseSpeed()
+    {
+        Speed += 0.1f;
     }
 }
