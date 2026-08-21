@@ -9776,6 +9776,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6633478534958563815, guid: 99dc8a19b765e8f418dbe0fb283090a1, type: 3}
+      propertyPath: SceneToLoad
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6633478534958563815, guid: 99dc8a19b765e8f418dbe0fb283090a1, type: 3}
       propertyPath: SpawnList.Array.size
       value: 6
       objectReference: {fileID: 0}
@@ -14937,6 +14941,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Sanity
   SanityMeter: 100
   MaxSanity: 100
+  SceneToLoad: 2
   SanityBar: {fileID: 833945100}
 --- !u!1 &2059373796 stripped
 GameObject:

@@ -5,8 +5,20 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Magnus/Start.unity
+    guid: 5cf10003ad9ef1549ac29c615a7bc7a7
+  - enabled: 1
+    path: Assets/Magnus/Bapper_Level.unity
+    guid: 7234840404a49d5479eb90429dab352c
+  - enabled: 1
+    path: Assets/Fredrik/Lv_GameOver.unity
+    guid: 6041983c591a6e14a81511234baf396a
+  - enabled: 1
+    path: Assets/Fredrik/Lv_Victory.unity
+    guid: d44a27c17cad36747b81e0dffa7ed958
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
