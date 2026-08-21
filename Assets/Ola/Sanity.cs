@@ -1,9 +1,11 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 public class Sanity : MonoBehaviour
 {
     public float SanityMeter, MaxSanity;
+    public int SceneToLoad;
     public GameUIHandler SanityBar;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -15,7 +17,10 @@ public class Sanity : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        if (SanityMeter <= 0)
+        {
+            SceneManager.LoadSceneAsync(SceneToLoad);
+        }
     }
 
     IEnumerator DecreaseSanity()
