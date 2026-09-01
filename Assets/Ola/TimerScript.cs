@@ -72,7 +72,7 @@ public class TimerScript : MonoBehaviour
     {
         while (Timer < 280)
         {
-            yield return new WaitForSeconds(30);
+            yield return new WaitForSeconds(20);
             SpawnList[Random.Range(0, 12)].SetActive(true);
 
         }

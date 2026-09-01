@@ -30,7 +30,7 @@ public class Collectible : MonoBehaviour
 
     private void OnDestroy()
     {
-        StartCoroutine(SanityMessage());
+        
         SanityLink.IncreaseSanity();
     }
 
