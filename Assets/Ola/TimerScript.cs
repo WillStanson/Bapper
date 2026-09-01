@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class TimerScript : MonoBehaviour
 {
-    private int Timer = 0;
+    public int Timer = 0;
     public int SceneToLoad;
     public AudioSource Clock;
     public AudioClip Clip;
@@ -22,8 +22,8 @@ public class TimerScript : MonoBehaviour
         
         StartCoroutine(IncreaseTimer());
         StartCoroutine(StartRandomSpawn());
-        StartCoroutine(SpeedIncreaseTimer());
-        SpeedRef = FindAnyObjectByType<RoombaListedMovement>();
+        SpeedRef = Object.FindAnyObjectByType<RoombaListedMovement>();
+        
 
     }
 
@@ -70,7 +70,7 @@ public class TimerScript : MonoBehaviour
 
     IEnumerator StartRandomSpawn()
     {
-        while (Timer < 280)
+        while (Timer < 285)
         {
             yield return new WaitForSeconds(20);
             SpawnList[Random.Range(0, 12)].SetActive(true);
@@ -78,14 +78,9 @@ public class TimerScript : MonoBehaviour
         }
     }
 
-    IEnumerator SpeedIncreaseTimer()
-    {
-        while (Timer < 280)
-        {
-            yield return new WaitForSeconds(60);
-            SpeedRef.IncreaseSpeed();
-        }
-    }
+   
+
+   
 
   
 }

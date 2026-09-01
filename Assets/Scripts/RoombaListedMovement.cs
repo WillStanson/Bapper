@@ -1,6 +1,7 @@
 using NUnit.Framework;
-using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 
 public class RoombaListedMovement : MonoBehaviour
 {
@@ -11,12 +12,16 @@ public class RoombaListedMovement : MonoBehaviour
     private Rigidbody rb;
     private int ListIndex = 0;
 
+    TimerScript TimerRef;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         CurrentPoint = points[ListIndex];
         rb = GetComponent<Rigidbody>();
+        TimerRef = FindAnyObjectByType<TimerScript>();
+        StartCoroutine(SpeedIncreaseTimer());
     }
 
     // Update is called once per frame
@@ -35,6 +40,8 @@ public class RoombaListedMovement : MonoBehaviour
 
             CurrentPoint = points[ListIndex];
         }
+
+
     }
 
     void ForwardMovement(int movementDirection)
@@ -48,5 +55,14 @@ public class RoombaListedMovement : MonoBehaviour
     public void IncreaseSpeed()
     {
         Speed += Speed * 0.1f;
+    }
+
+    IEnumerator SpeedIncreaseTimer()
+    {
+        while (TimerRef.Timer < 280)
+        {
+            yield return new WaitForSeconds(60);
+            IncreaseSpeed();
+        }
     }
 }
