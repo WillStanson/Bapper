@@ -6,6 +6,7 @@ public class Sanity : MonoBehaviour
 {
     public float SanityMeter, MaxSanity;
     public int SceneToLoad;
+    public AudioSource Heartbeat;
     public GameUIHandler SanityBar;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,6 +21,21 @@ public class Sanity : MonoBehaviour
         if (SanityMeter <= 0)
         {
             SceneManager.LoadSceneAsync(SceneToLoad);
+        }
+
+        if (SanityMeter <= 66f && SanityMeter >= 33)
+        {
+            Heartbeat.pitch = 1;
+        }
+
+        else if (SanityMeter < 33)
+        {
+            Heartbeat.pitch = 1.3f;
+        }
+
+        else
+        {
+            Heartbeat.pitch = 0.7f;
         }
     }
 

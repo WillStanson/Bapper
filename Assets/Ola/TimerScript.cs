@@ -8,11 +8,14 @@ public class TimerScript : MonoBehaviour
 {
     private int Timer = 0;
     public int SceneToLoad;
+    public AudioSource Clock;
+    public AudioClip Clip;
 
     public List<GameObject> SpawnList;
     public TextMeshProUGUI MyTextElement;
 
     RoombaListedMovement SpeedRef;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,6 +24,7 @@ public class TimerScript : MonoBehaviour
         StartCoroutine(StartRandomSpawn());
         StartCoroutine(SpeedIncreaseTimer());
         SpeedRef = FindAnyObjectByType<RoombaListedMovement>();
+
     }
 
     // Update is called once per frame
@@ -31,7 +35,27 @@ public class TimerScript : MonoBehaviour
         {
             SceneManager.LoadSceneAsync(SceneToLoad);
         }
-       
+
+        if (Timer == 60)
+        {
+            Clock.PlayOneShot(Clip);
+        }
+
+        if (Timer == 120)
+        {
+            Clock.PlayOneShot(Clip);
+        }
+
+        if (Timer == 180)
+        {
+            Clock.PlayOneShot(Clip);
+        }
+
+        if (Timer == 240)
+        {
+            Clock.PlayOneShot(Clip);
+        }
+
     }
 
     IEnumerator IncreaseTimer()
