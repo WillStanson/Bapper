@@ -14,7 +14,6 @@ public class TimerScript : MonoBehaviour
     public List<GameObject> SpawnList;
     public TextMeshProUGUI MyTextElement;
 
-    RoombaListedMovement SpeedRef;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,9 +21,6 @@ public class TimerScript : MonoBehaviour
         
         StartCoroutine(IncreaseTimer());
         StartCoroutine(StartRandomSpawn());
-        SpeedRef = Object.FindAnyObjectByType<RoombaListedMovement>();
-        
-
     }
 
     // Update is called once per frame
@@ -77,10 +73,5 @@ public class TimerScript : MonoBehaviour
 
         }
     }
-
-   
-
-   
-
   
 }
