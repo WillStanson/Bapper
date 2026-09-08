@@ -12,15 +12,12 @@ public class RoombaListedMovement : MonoBehaviour
     private Rigidbody rb;
     private int ListIndex = 0;
 
-    TimerScript TimerRef;
-
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         CurrentPoint = points[ListIndex];
         rb = GetComponent<Rigidbody>();
-        TimerRef = FindAnyObjectByType<TimerScript>();
         StartCoroutine(SpeedIncreaseTimer());
     }
 
@@ -59,7 +56,7 @@ public class RoombaListedMovement : MonoBehaviour
 
     IEnumerator SpeedIncreaseTimer()
     {
-        while (TimerRef.Timer < 280)
+        while (TimerScript.Instance.Timer < 280)
         {
             yield return new WaitForSeconds(60);
             IncreaseSpeed();

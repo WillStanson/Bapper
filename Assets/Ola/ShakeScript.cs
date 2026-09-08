@@ -7,10 +7,10 @@ public class ShakeScript : MonoBehaviour
     public AnimationCurve Curve;
     private bool IsShaking;
     public Transform CameraTarget;
-    TimerScript RefTimer;
+    
     void Start()
     {
-        RefTimer = FindAnyObjectByType<TimerScript>();
+        
     }
 
     // Update is called once per frame
@@ -25,7 +25,7 @@ public class ShakeScript : MonoBehaviour
 
         
 
-        if (RefTimer.Timer == 60 || RefTimer.Timer == 120 || RefTimer.Timer == 180 || RefTimer.Timer == 240)
+        if (TimerScript.Instance.Timer == 60 || TimerScript.Instance.Timer == 120 || TimerScript.Instance.Timer == 180 || TimerScript.Instance.Timer == 240)
         {
             StartCoroutine(Shake());
         }

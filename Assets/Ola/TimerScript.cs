@@ -8,11 +8,21 @@ public class TimerScript : MonoBehaviour
 {
     public int Timer = 0;
     public int SceneToLoad;
-    public AudioSource Clock;
+    [SerializeField] private AudioSource Clock;
     public AudioClip Clip;
 
     public List<GameObject> SpawnList;
     public TextMeshProUGUI MyTextElement;
+
+    public static TimerScript Instance;
+
+    private void Awake()
+    {
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(this);
+    }
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -21,6 +31,7 @@ public class TimerScript : MonoBehaviour
         
         StartCoroutine(IncreaseTimer());
         StartCoroutine(StartRandomSpawn());
+        
     }
 
     // Update is called once per frame
@@ -32,25 +43,16 @@ public class TimerScript : MonoBehaviour
             SceneManager.LoadSceneAsync(SceneToLoad);
         }
 
-        if (Timer == 60)
+        if (Timer == 60 || Timer == 120 || Timer == 180 || Timer == 240)
         {
             Clock.PlayOneShot(Clip);
+            StartCoroutine(ChangeTextColour());
         }
 
-        if (Timer == 120)
-        {
-            Clock.PlayOneShot(Clip);
-        }
+        else
+        MyTextElement.color = new Color(1, 1, 1);
 
-        if (Timer == 180)
-        {
-            Clock.PlayOneShot(Clip);
-        }
 
-        if (Timer == 240)
-        {
-            Clock.PlayOneShot(Clip);
-        }
 
     }
 
@@ -68,10 +70,16 @@ public class TimerScript : MonoBehaviour
     {
         while (Timer < 285)
         {
-            yield return new WaitForSeconds(20);
+            yield return new WaitForSeconds(10);
             SpawnList[Random.Range(0, 12)].SetActive(true);
 
         }
+    }
+
+    IEnumerator ChangeTextColour()
+    {
+        MyTextElement.color = new Color(0.2127827f, 0.5345911f, 0.05211414f);
+        yield return null;
     }
   
 }
